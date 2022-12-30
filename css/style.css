@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.brand-logo {
+  width: 6rem;
+  height: 3rem;
+}
+.has-search .form-control {
+  padding-left: 3.575rem;
+  background-color: #f7f9fa;
+  width: 40.87rem;
+  height: 2.875rem;
+  border-radius: 1.7rem;
+  border: 1px solid rgb(28, 29, 31, 0.8);
+  outline: none;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  padding-top: 0.3rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #8a8b8d;
+  margin-left: 1rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.4rem 1.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 10px -10px;
+}
+.header h4 {
+  font-size: 13.3px;
+  font-weight: 400;
+}
+.header h4:hover,
+.header i:hover {
+  color: #5624d0;
+}
+.header i {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-div .btn-log,
+.btn-div .btn-sign,
+.btn-div .btn-globe,
+.btn-explore {
+  margin-right: 0.6rem;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-div .btn-log:hover,
+.btn-div .btn-globe:hover,
+.btn-explore:hover {
+  background-color: #f7f9fa;
+}
+.btn-div .btn-globe {
+  padding: 0.5rem 0.7rem;
+  background-color: white;
+  border: 1px solid black;
+}
+.btn-div .btn-globe .globe {
+  font-size: 15px;
+}
+.btn-div .btn-log,
+.btn-explore {
+  padding: 0.6rem;
+  background-color: white;
+  border: 1px solid black;
+}
+.btn-div .btn-sign {
+  padding: 0.6rem;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.card-box {
+  width: 440px;
+  padding: 24px;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #1c1d1f;
+  position: relative;
+  margin: 4rem 0 0 7rem;
+  background-color: white;
+}
+.image1 {
+  background-image: url(/images/hero1.jpg);
+}
+.image2 {
+  background-image: url(/images/hero2.jpg);
+}
+.image1,
+.image2 {
+  background-size: cover;
+  height: 400px;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+.a-hero {
+  color: #5624d0;
+}
+.courses-para {
+  font-size: 15px;
+  color: #1c1d1f;
+  font-weight: 500;
+  line-height: 22.4px;
+}
+.course-card-p-text{
+ font-family: "open-sans", sans-serif;
+ font-size: 13px;
+}
+.star-icons{
+  color:#E59819;
+  font-size: 13px;
+  
+}
+.c-c-para{
+  color:#8a8b8d;
+  font-size: 12px;
+  
+}
+.courses-c-para{
+  color: #B6690E;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.course-card-title, .price{
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 19.2px;
+}
+.c-c-box{
+  border: none !important;
+}
+.course-image-c{
+  width: 6rem;
+  height: 7rem;
+}
+.p-text {
+  font-size: 19px;
+  line-height: 26.6px;
+  margin: 16px 0;
+}
+.h-text {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 40px;
+}
+.courses-section .list-category li {
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #826f73;
+  font-weight: 500;
+  letter-spacing: -0.2px;
+  line-height: 19.2px;
+  padding-right: 10px;
+  margin-right: 20px;
+  list-style: none;
+}
+.courses-section .list-category {
+  padding-left: 0;
+}
+.list-category li:hover {
+  color: #000000;
+}
+.courses-segment {
+  border: 1px solid rgb(209, 215, 220);
+}
+.featured-section {
+  background-color: #f7f9fa;
+  padding: 5rem 1rem;
+}
+.btn-best{
+  background-color: #ECEB98;
+  border: none;
+  padding: 3px 7px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 7px;
+  color: #1c1d1f;
+  font-family: "open-sans", sans-serif;
+
+}
+.list-features {
+  color: #5624d0;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+.featured-section li {
+  list-style: none;
+}
+.list-span {
+  font-family: "open-sans", sans-serif;
+  color: #6a6f73;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.list-heading {
+  color: #1c1d1f;
+  font-size: 19px;
+  font-weight: 700;
+}
+.list-row {
+  margin-left: 0;
+  padding-left: 0;
+}
+.featured-category-title {
+  font-size: 24px;
+  color: #1c1d1f;
+  margin-bottom: 24px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 28.8px;
+}
+.social-proof-para {
+  font-size: 16px;
+  color: #1c1d1f;
+  line-height: 22.4px;
+}
+.social-proof-heading {
+  color: #1c1d1f;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  line-height: 32.4px;
+}
+.text-card {
+  font-size: 19px;
+  color: #1c1d1f;
+  margin-bottom: 20px;
+  font-family: "open-sans", sans-serif;
+  line-height: 26.6px;
+}
+.text-card li {
+  font-family: "open-sans", sans-serif;
+  padding: 7px;
+}
+.proof-card {
+  border: none !important;
+}
+.proof-card-image {
+  height: 400px;
+  width: 400px;
+}
+.title-card {
+  font-size: 35px;
+  color: #1c1d1f;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 40px;
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+.card-image {
+  height: 32.675px;
+  width: 192px;
+}
+
+.footer-section {
+  font-family: "open-sans", sans-serif;
+  background-color: #1c1d1f;
+  color: white;
+  padding: 1.2rem 0 1.5rem 0;
+}
+
+.footer-section li a {
+  color: white;
+  font-size: 14px;
+  font-family: "open-sans", sans-serif;
+  line-height: 19.6px;
+  text-decoration: none;
+}
+.footer-section li a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  font-family: "open-sans", sans-serif;
+  font-size: 12px;
+  line-height: 16.8px;
+}
+.footer-section li {
+  margin: 0.4rem 0;
+  list-style: none;
+}
+.btn-lang {
+  color: white;
+  border: 1px solid white;
+  margin-right: 2.2rem;
+}
+.btn-lang,
+.btn-black {
+  background-color: #1c1d1f;
+  font-family: "open-sans", sans-serif;
+  font-size: 16px;
+}
+.btn-white {
+  font-family: "open-sans", sans-serif;
+  background-color: white;
+  padding: 10px 15px;
+}
+.btn-black {
+  padding: 10px 15px;
+  border: none;
+}
+.btn-black a,
+.btn-white a {
+  text-decoration: none;
+}
+.btn-black:hover {
+  background-color: #000000;
+}
+.btn-black a:hover {
+  color: white;
+}
+.btn-black a {
+  color: white;
+}
+.btn-white a {
+  color: #1c1d1f;
+}
+.btn-white a:hover {
+  color: #1c1d1f;
+}
